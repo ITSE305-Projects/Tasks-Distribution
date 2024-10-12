@@ -15,11 +15,18 @@ Project: Online Pharmacy Store System
  
  Description: The usecase for account profile includes account creation, login, and administration. Users can establish safe profiles by supplying necessary details and confirming their identities. A safe access point with password recovery makes it simple for users to log in. A customized and effective user experience is ensured with the ability to edit personal information, alter preferences, and view order history once logged in.
 
+
+
+
+
  Use case2: Payment  
  
  Assigned to: Hassan Elmaayati 202004160  
  
  Description: The payment process improves order placement and payment processing, enabling users to select products and move on to checkout with simplicity. Before completing their orders, customers can add products to their cart and check details. Users trust and satisfaction are increased by the payment processing system's secure handling of transactions through a variety of payment methods such as credit/debit cards, digital wallets, and insurance claims, accurate billing, and provides users with detailed transaction history. Also implementing secure protocols to keep the sensitive financial information safe and secure and offers support for any payment-related issues.
+
+
+
 
  
  Use case3:  Inventory Management  
