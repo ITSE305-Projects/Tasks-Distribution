@@ -9,7 +9,7 @@ Project: Online Pharmacy Store System
 |  Sarah Hasan      | Inventory Management                          |
 |  Reda Fouad       | Delivery Management                           |
 
- **(Use case1: Account Profile  )**  
+## **(Use case1: Account Profile  )**  
  Assigned to: Alya Ahmed 202006886  
  Description: The usecase for account profile includes account creation, login, and administration. Users can establish safe profiles by supplying necessary details and confirming their identities. A safe access point with password recovery makes it simple for users to log in. A customized and effective user experience is ensured with the ability to edit personal information, alter preferences, and view order history once logged in.
 
