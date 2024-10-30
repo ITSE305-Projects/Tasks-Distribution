@@ -1,5 +1,9 @@
 // Payment.java
-//The Payment class encapsulates the details of a payment transaction, including the amount and the method of payment (e.g., credit card, PayPal). It provides a clear structure for representing a payment and includes the functionality to process the payment through the processPayment() method, which simulates the transaction. This class is essential for handling the specifics of each payment instance, and it ensures that all relevant information is bundled together. For example, when a user enters the payment amount and method, a Payment object is created to manage these details throughout the payment workflow.
+//The Payment class encapsulates the details of a payment transaction, including the amount and the method of payment 
+//(e.g., credit card, PayPal). It provides a clear structure for representing a payment and includes the functionality
+// to process the payment through the processPayment() method, which simulates the transaction. This class is essential 
+//for handling the specifics of each payment instance, and it ensures that all relevant information is bundled together.
+// For example, when a user enters the payment amount and method, a Payment object is created to manage these details throughout the payment workflow.
 
 
 

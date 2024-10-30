@@ -1,5 +1,9 @@
 // Main.java
-//The Main class serves as the entry point for the online pharmacy payment system application. It is responsible for initializing the various layers of the application, including DataLayer, BusinessLayer, and PresentationLayer. When the application starts, it creates instances of these layers and orchestrates the flow by calling the startPaymentProcess() method of the PresentationLayer. This triggers the payment interaction with the user, making it a crucial component for launching the application and ensuring that all parts work together seamlessly.
+//The Main class serves as the entry point for the online pharmacy payment system application. It is responsible
+// for initializing the various layers of the application, including DataLayer, BusinessLayer, and PresentationLayer.
+// When the application starts, it creates instances of these layers and orchestrates the flow by calling the startPaymentProcess()
+// method of the PresentationLayer. This triggers the payment interaction with the user, making it a crucial component for
+// launching the application and ensuring that all parts work together seamlessly.
 
 
 

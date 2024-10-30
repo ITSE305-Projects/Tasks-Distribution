@@ -1,7 +1,12 @@
 
 import java.util.Scanner;
 
-//The PresentationLayer class is responsible for handling user interactions in the online pharmacy system. It prompts users for necessary payment information, such as the payment amount and method, through the console. Using the Scanner class, it captures user input and communicates with the BusinessLayer to process the payment. This layer serves as the bridge between the user and the application's backend logic, ensuring a smooth user experience. For instance, when a user is prompted to enter a payment amount, the class collects this input and forwards it to the BusinessLayer for further processing, making it a vital component for user engagement in the payment process.
+//The PresentationLayer class is responsible for handling user interactions in the online pharmacy system.
+// It prompts users for necessary payment information, such as the payment amount and method, through the console.
+// Using the Scanner class, it captures user input and communicates with the BusinessLayer to process the payment.
+// This layer serves as the bridge between the user and the application's backend logic, ensuring a smooth user experience.
+// For instance, when a user is prompted to enter a payment amount, the class collects this input and forwards it to the 
+//BusinessLayer for further processing, making it a vital component for user engagement in the payment process.
 
 
 

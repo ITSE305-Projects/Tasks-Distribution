@@ -1,5 +1,11 @@
 // BusinessLayer.java
-//The BusinessLayer class is responsible for handling the core logic related to payment processing in the online pharmacy system. It acts as an intermediary between the presentation and data layers, ensuring that payment transactions are properly processed and recorded. For example, when a payment is initiated, this class creates a Payment object that contains the payment amount and method. It then calls the processPayment() method to simulate the payment process and, upon successful completion, generates a unique transaction ID to save the payment details using the DataLayer. This class ensures that the business rules and logic for payment handling are encapsulated and maintainable.
+//The BusinessLayer class is responsible for handling the core logic related to payment processing in the 
+//online pharmacy system. It acts as an intermediary between the presentation and data layers, ensuring that
+// payment transactions are properly processed and recorded. For example, when a payment is initiated, this 
+//class creates a Payment object that contains the payment amount and method. It then calls the processPayment() 
+//method to simulate the payment process and, upon successful completion, generates a unique transaction ID to 
+//save the payment details using the DataLayer. This class ensures that the business rules and logic for payment
+// handling are encapsulated and maintainable.
  
 
 
