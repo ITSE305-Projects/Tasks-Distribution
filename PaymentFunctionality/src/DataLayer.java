@@ -4,8 +4,7 @@ import java.util.HashMap;
  //pharmacy system. It utilizes a HashMap to store transaction IDs alongside their corresponding payment amounts,
  // allowing for efficient data management. When a payment is processed, the savePayment() method is called to 
  //record the transaction, providing a clear and accessible way to keep track of all payments made. Additionally, 
- //the getPayment() method enables retrieval of payment information based on the transaction ID. This separation 
- //of data management from business logic enhances the system's organization and makes it easier to maintain.
+ //the getPayment() method enables retrieval of payment information based on the transaction ID. This separation of data management from business logic enhances the system's organization and makes it easier to maintain.
  
 
 
