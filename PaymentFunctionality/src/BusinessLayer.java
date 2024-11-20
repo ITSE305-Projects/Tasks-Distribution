@@ -17,18 +17,23 @@ public class BusinessLayer {
      // Constructor for BusinessLayer.
      // @param dataLayer An instance of DataLayer used for saving payment data.
   // Constructor
-  public BusinessLayer(DataLayer dataLayer) {
+     private String lastTransactionId;
+
+    public BusinessLayer(DataLayer dataLayer) {
       this.dataLayer = dataLayer;}
      // Handles the payment process.
      // @param amount        The amount to be processed for the payment.
      // @param paymentMethod The method used for the payment (e.g., Credit Card, PayPal).
      // Method to handle payment
-  public void handlePayment(double amount, String paymentMethod) {
-      Payment payment = new Payment(amount, paymentMethod); // Creating a new Payment object
-      if (payment.processPayment()) {// if statement to process the payment
-          // Simulate transaction ID generation
-          String transactionId = "TXN" + System.currentTimeMillis();
-          dataLayer.savePayment(transactionId, amount); // Saves payment details in the DataLayer
-      }
-  }
+     public void handlePayment(double amount, String paymentMethod) {
+         Payment payment = new Payment(amount, paymentMethod);
+         if (payment.processPayment()) {
+             lastTransactionId = "TXN" + System.currentTimeMillis();
+             dataLayer.savePayment(lastTransactionId, amount);
+         }
+     }
+    public String getLastTransactionId() {
+        return lastTransactionId;
+    }
+
 }

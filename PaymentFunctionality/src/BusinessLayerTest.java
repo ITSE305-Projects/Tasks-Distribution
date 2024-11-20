@@ -22,10 +22,12 @@ class BusinessLayerTest {
         BusinessLayer businessLayer = new BusinessLayer(dataLayer);
         businessLayer.handlePayment(100.0, "Credit Card");
 
-        String transactionId = "TXN" + System.currentTimeMillis();
-        Double amountSaved = dataLayer.getPayment(transactionId);
+        String transactionId = businessLayer.getLastTransactionId();
+        assertNotNull(transactionId, "Transaction ID should not be null.");
 
+        Double amountSaved = dataLayer.getPayment(transactionId);
         assertNotNull(amountSaved, "Payment should be saved for a valid amount.");
         assertEquals(100.0, amountSaved, "The saved payment amount should be 100.0.");
     }
+
 }
