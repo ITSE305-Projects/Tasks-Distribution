@@ -1,6 +1,6 @@
 public class InventoryItem {
 
-  private String name;
+  private final String name;
   private int quantity;
   private double price;
 
@@ -31,6 +31,9 @@ public class InventoryItem {
   public void setPrice(double price) {
       this.price = price;
   }
+  public double calculateTotalValue() {
+    return quantity * price;
+}
 
   // toString method to display item details
   @Override
