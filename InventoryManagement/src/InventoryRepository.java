@@ -14,6 +14,14 @@ public class InventoryRepository {
     public List<InventoryItem> getAllItems() {
         return inventory;
     }
+    public boolean removeItem(String name) {
+        InventoryItem item = getItemByName(name);
+        if (item != null) {
+            inventory.remove(item);
+            return true;
+        }
+        return false;
+    }
 
     // Adds a new item to the inventory
     public void addItem(InventoryItem item) {

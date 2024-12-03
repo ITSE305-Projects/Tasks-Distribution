@@ -20,7 +20,7 @@ public class InventoryUI {
       inventoryService.addItem(name, quantity, price);
       System.out.println("Item added successfully.");
   }
-
+  
   // Updates an existing item in the inventory
   public void updateItemQuantity(String itemName, int newQuantity) {
       if (inventoryService.updateQuantity(itemName, newQuantity)) {
@@ -28,5 +28,6 @@ public class InventoryUI {
       } else {
           System.out.println("Item not found.");
       }
+      
   }
 }
