@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< Updated upstream
 <<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/AccountManager.iml" filepath="$PROJECT_DIR$/AccountManager.iml" />
 =======
       <module fileurl="file://$PROJECT_DIR$/InventoryManagement.iml" filepath="$PROJECT_DIR$/InventoryManagement.iml" />
 >>>>>>> main2
+=======
+      <module fileurl="file://$PROJECT_DIR$/PaymentFunctionality/PaymentFunctionality.iml" filepath="$PROJECT_DIR$/PaymentFunctionality/PaymentFunctionality.iml" />
+      <module fileurl="file://$PROJECT_DIR$/deilivery2.iml" filepath="$PROJECT_DIR$/deilivery2.iml" />
+>>>>>>> Stashed changes
     </modules>
   </component>
 </project>
