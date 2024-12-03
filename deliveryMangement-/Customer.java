@@ -9,7 +9,7 @@ public class Customer {
         this.customerId = customerId;
         this.name = name;
         this.address = address;
-        this.contactNumber = contactNumber;
+        this.co = contactNumber;
     }
 
     public String getCustomerId() {
